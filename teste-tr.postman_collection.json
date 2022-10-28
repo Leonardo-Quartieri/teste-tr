@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "600b3e89-e3c2-4172-8a0b-2386cd674383",
+		"name": "teste-tr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - cartoes - saveCartao",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"usuario\":\"admin\",\r\n\"senha\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8180/api/v1/cotacoes/10-25-2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8180",
+					"path": [
+						"api",
+						"v1",
+						"cotacoes",
+						"10-25-2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - cartoes - get Saldo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"usuario\":\"admin\",\r\n\"senha\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8180/api/v1/cotacoes/10-25-2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8180",
+					"path": [
+						"api",
+						"v1",
+						"cotacoes",
+						"10-25-2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - transacoes - realizarSaque",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"usuario\":\"admin\",\r\n\"senha\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8180/api/v1/cotacoes/10-25-2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8180",
+					"path": [
+						"api",
+						"v1",
+						"cotacoes",
+						"10-25-2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - cartoes - get Saldo 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"usuario\":\"admin\",\r\n\"senha\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8180/api/v1/cotacoes/10-25-2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8180",
+					"path": [
+						"api",
+						"v1",
+						"cotacoes",
+						"10-25-2022"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
